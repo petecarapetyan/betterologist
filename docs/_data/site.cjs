@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'heatunitworks',
-    description: 'not-fuelcell is a customizeable theme, for the Rocket SSG',
+    name: 'heatUnitWorks',
+    description: 'This site is a demo site for the `not-fuelcell` customizeable the Rocket SSG theme',
     socialLinks: [
       {
         name: 'GitHub',
@@ -18,5 +18,7 @@ module.exports = function () {
     iconColorMsapplicationTileColor: '#1d3557',
     iconColorThemeColor: '#1d3557',
     socialMediaImage: '/_assets/social-media-image.jpg',
+    analyticsUA: 'UA-52870008-12',
+    analyticsGA4: 'G-LE15FXMSVL'
   };
 };
