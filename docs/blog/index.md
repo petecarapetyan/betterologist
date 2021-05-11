@@ -2,7 +2,7 @@
 layout: layout-blog-overview
 eleventyNavigation:
   key: Blog
-  order: 30
+  order: 100
 pagination:
   data: collections.blog
   size: 10
@@ -11,5 +11,3 @@ pagination:
 ---
 
 # Future Blog
-
-Discover articles!
