@@ -2,7 +2,7 @@
 layout: layout-blog-overview
 eleventyNavigation:
   key: Blog
-  order: 100
+  order: 30
 pagination:
   data: collections.blog
   size: 10
@@ -10,4 +10,6 @@ pagination:
   alias: posts
 ---
 
-# Future Blog
+# Rocket Blog
+
+Discover articles from the core team and contributors about Rocket, tips and tricks included!
