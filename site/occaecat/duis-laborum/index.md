@@ -1,12 +1,11 @@
 ---
 layout: layout-sidebar
-title: index
+title: Duis Laborum
 eleventyNavigation:
-  key: index
-  title: index
-  parent: duis-laborum
+  key: duis-laborum
+  title: Duis Laborum
+  parent: occaecat
   # order: 42
-# FIXME - Values shown above are currently derived from the file path only, except order which is also commented out because it is optional. Correct as desired and delete comment(s).
 ---
 
 # Duis laborum
