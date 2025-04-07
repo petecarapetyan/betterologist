@@ -26,7 +26,7 @@ rm -rf site/_includes/_joiningBlocks/bottom
 rm -rf site/_includes/_joiningBlocks/footer 
 rm -rf site/_includes/_joiningBlocks/head
 rm -rf site/_includes/_joiningBlocks/header 
-rm -rf site/_includes/partials             
+# rm -rf site/_includes/partials  except not header.njk           
 rm site/_includes/snippet/header-dark-switch.njk
 rm site/_includes/snippet/header-logo.njk
 rm static/images/bulksplash-*.jpg

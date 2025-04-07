@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'heatunitworks',
+    name: 'Betterologist.com',
     description: 'not-fuelcell  theme',
     socialLinks: [
       {
