@@ -1,0 +1,11 @@
+This is how to run this inside one of the projects created by this project:
+- the two biggest unresolved issues before you finish this task:
+  - - make a decision on the home teasers and whether you are even going to keep them
+  - - make a decision how you are going to do your dark theming, first before you delete this
+
+- npm install purgecss --save-dev
+- then, (i did one css file at a time) npx purgecss --css _site/static/css/layout.css --content _site/pariatur/index.html _site/index.html --output clean-layout/
+- now that you have the clean css created, you have to manually go through the css and remove from the base css files as your judgement suggests
+- select the existing, compare with the new cleaned version, analyze the delta
+- absolutely search through all html first before removing stuff
+- for reference chatgpt that led me here: https://chatgpt.com/c/67f8664c-934c-8009-a26c-fc4741cd0445
