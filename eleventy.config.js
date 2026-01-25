@@ -4,6 +4,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory("site");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy("static");
+
+  // EVERYTHING BELOW IS FOR THE DRAFT FUNCTIONALITY
   // 1. Global Computed Permalink
   // If draft is true & we are building (not serving), kill the permalink.
   eleventyConfig.addGlobalData("eleventyComputed.permalink", () => {
